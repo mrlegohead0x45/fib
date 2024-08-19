@@ -1,0 +1,15 @@
+[package]
+name = "fib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
